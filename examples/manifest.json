@@ -1,0 +1,10 @@
+{
+  "default": {
+    "source_url": "synthetic://local-demo",
+    "source_version": "0.1",
+    "family_id": "synthetic-demo",
+    "weight_ids": [],
+    "data_ids": [],
+    "license": "demo-source-only"
+  }
+}

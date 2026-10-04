@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+outputs/
+private/
+*.pt
+*.pth
+*.parquet

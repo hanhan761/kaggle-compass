@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "metric_id": "mrr@25",
+  "cohort_id": "synthetic-demo-only",
+  "baseline_id": "demo-champion",
+  "rows": [
+    {
+      "query_id": "demo-0",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-0",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-1",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-0",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-2",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-1",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-3",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-1",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-4",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-2",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-5",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-2",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-6",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-3",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-7",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-3",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-8",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-4",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-9",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-4",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-10",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-5",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-11",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-5",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-12",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-6",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-13",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-6",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-14",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-7",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-15",
+      "group": "candidate_missing",
+      "block_id": "demo-scaffold-7",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-16",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-8",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-17",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-8",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-18",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-9",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-19",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-9",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-20",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-10",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-21",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-10",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-22",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-11",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-23",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-11",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-24",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-12",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-25",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-12",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-26",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-13",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-27",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-13",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-28",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-14",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-29",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-14",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-30",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-15",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-31",
+      "group": "ranking_low",
+      "block_id": "demo-scaffold-15",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-32",
+      "group": "strong",
+      "block_id": "demo-scaffold-16",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-33",
+      "group": "strong",
+      "block_id": "demo-scaffold-16",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-34",
+      "group": "strong",
+      "block_id": "demo-scaffold-17",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-35",
+      "group": "strong",
+      "block_id": "demo-scaffold-17",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-36",
+      "group": "strong",
+      "block_id": "demo-scaffold-18",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-37",
+      "group": "strong",
+      "block_id": "demo-scaffold-18",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-38",
+      "group": "strong",
+      "block_id": "demo-scaffold-19",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-39",
+      "group": "strong",
+      "block_id": "demo-scaffold-19",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-40",
+      "group": "strong",
+      "block_id": "demo-scaffold-20",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-41",
+      "group": "strong",
+      "block_id": "demo-scaffold-20",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-42",
+      "group": "strong",
+      "block_id": "demo-scaffold-21",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-43",
+      "group": "strong",
+      "block_id": "demo-scaffold-21",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-44",
+      "group": "strong",
+      "block_id": "demo-scaffold-22",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-45",
+      "group": "strong",
+      "block_id": "demo-scaffold-22",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-46",
+      "group": "strong",
+      "block_id": "demo-scaffold-23",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-47",
+      "group": "strong",
+      "block_id": "demo-scaffold-23",
+      "rank": 1
+    }
+  ]
+}

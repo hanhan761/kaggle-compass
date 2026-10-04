@@ -1,0 +1,6 @@
+interface:
+  display_name: "指南针"
+  short_description: "用误差需求与组件能力向量，持续筛选社区方案、验证融合并指导算法开发"
+  default_prompt: "使用 $kaggle-compass（指南针）分析当前误差，匹配社区组件并制定融合或开发实验。"
+policy:
+  allow_implicit_invocation: true

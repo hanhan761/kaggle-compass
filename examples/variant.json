@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "metric_id": "mrr@25",
+  "cohort_id": "synthetic-demo-only",
+  "baseline_id": "demo-champion",
+  "component_id": "demo-fused-candidate-expansion",
+  "family_id": "demo-independent",
+  "mode": "fused",
+  "rows": [
+    {
+      "query_id": "demo-0",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-1",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-2",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-3",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-4",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-5",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-6",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-7",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-8",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-9",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-10",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-11",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-12",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-13",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-14",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-15",
+      "rank": 0
+    },
+    {
+      "query_id": "demo-16",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-17",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-18",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-19",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-20",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-21",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-22",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-23",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-24",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-25",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-26",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-27",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-28",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-29",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-30",
+      "rank": 10
+    },
+    {
+      "query_id": "demo-31",
+      "rank": 5
+    },
+    {
+      "query_id": "demo-32",
+      "rank": 2
+    },
+    {
+      "query_id": "demo-33",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-34",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-35",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-36",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-37",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-38",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-39",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-40",
+      "rank": 2
+    },
+    {
+      "query_id": "demo-41",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-42",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-43",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-44",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-45",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-46",
+      "rank": 1
+    },
+    {
+      "query_id": "demo-47",
+      "rank": 1
+    }
+  ]
+}
