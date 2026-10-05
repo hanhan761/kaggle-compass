@@ -73,3 +73,14 @@ python -m unittest discover -s tests -v
 项目工具版本 **0.1.0**，与使用它的比赛模型版本分别管理。GitHub 发布与 Kaggle 比赛提交是两种独立授权；每次比赛提交仍需用户明确允许。
 
 README 图由内置 imagegen 生成，[完整提示词](assets/hero-prompt.md)。设计主题：指南针、误差地形、组件汇流与算法前进路径。
+
+## 下一步实验决策 v0.2
+
+指南针现在可以输出首选行动、暂缓原因、前置条件、预算分配和成本敏感性。实测融合收益与未测探索分队排序，未知成本不视为免费；保留一个探索名额，同源行动不重复计票。每次结果回来更新状态、能力和成本后重新规划。排序为可解释启发式，不是预计榜分。
+
+```text
+python skills/kaggle-compass/scripts/decide.py --input examples/decision_problem.json --out outputs/你的决策编号.json
+python -m unittest discover -s tests -v
+```
+
+输入及解释见 [决策契约](skills/kaggle-compass/references/decisions.md)。示例为合成数据。指南针负责选择实验，工程实现与产物验收由开发人员负责；计划不执行训练或比赛提交。

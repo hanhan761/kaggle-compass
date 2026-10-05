@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "problem_id": "synthetic-decision-demo",
+  "demand": {
+    "axes": [
+      "correct",
+      "ranking"
+    ],
+    "n": 100,
+    "baseline_mrr": 0.8,
+    "cohort_id": "synthetic",
+    "baseline_id": "demo",
+    "metric_id": "mrr@25",
+    "groups": {
+      "correct": {
+        "n": 80,
+        "mean_loss": 0
+      },
+      "ranking": {
+        "n": 20,
+        "mean_loss": 1
+      }
+    }
+  },
+  "context": {
+    "budget_hours": 2,
+    "max_actions": 2,
+    "validation_status": "untrusted"
+  },
+  "actions": [
+    {
+      "id": "contract",
+      "name": "Verify evaluation contract",
+      "kind": "prerequisite",
+      "family_id": "evaluation",
+      "targets": [],
+      "status": "planned",
+      "requires": [],
+      "cost": {
+        "upper_hours": 0.5,
+        "basis": "planning_estimate"
+      },
+      "acceptance": "Group split and replay verified",
+      "stop": "Contract failure retains artifacts"
+    },
+    {
+      "id": "pilot",
+      "name": "Run paired ranking pilot",
+      "kind": "experiment",
+      "family_id": "ranking",
+      "targets": [
+        "ranking"
+      ],
+      "status": "planned",
+      "requires": [
+        "contract"
+      ],
+      "cost": {
+        "upper_hours": 1,
+        "basis": "planning_estimate"
+      },
+      "acceptance": "Same candidates, paired block interval and rescue/harm",
+      "stop": "No paired gain or domain regression",
+      "evidence": null
+    }
+  ]
+}
