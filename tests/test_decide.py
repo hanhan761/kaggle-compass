@@ -33,6 +33,8 @@ class TestDecision(unittest.TestCase):
   with self.assertRaises(ValueError):D.plan(p)
   p['actions'][0]['evidence']=evidence();p['actions'][0]['evidence']['top1_harm']=101
   with self.assertRaises(ValueError):D.plan(p)
+ def test_rejected_experiment_does_not_schedule_its_prerequisite(self):
+  p=problem();p['actions']=[action('repair',kind='prerequisite',targets=[]),action('bad',requires=['repair'],evidence=evidence(-.05,-.01,-.02))];self.assertIsNone(D.plan(p)['next_action'])
  def test_feedback_changes_next_action(self):
   p=problem();p['actions']=[action('a'),action('b')];self.assertEqual(D.plan(p)['next_action']['id'],'a');p['actions'][0]['evidence']=evidence(-.05,-.01,-.02);self.assertEqual(D.plan(p)['next_action']['id'],'b')
 if __name__=='__main__':unittest.main()

@@ -1,6 +1,6 @@
 """Compass experiment decisions v0.2: transparent heuristics, not predicted score."""
 import argparse,copy,hashlib,json,math,pathlib
-VERSION='0.2.0'
+VERSION='0.2.1'
 def number(v,label,low=0,high=None):
  if isinstance(v,bool) or not isinstance(v,(int,float)) or not math.isfinite(v) or v<low or (high is not None and v>high):raise ValueError('invalid '+label)
  return float(v)
@@ -86,7 +86,7 @@ def plan(problem):
  for a in actions:
   row=rows[a['id']]
   if a.get('kind')=='prerequisite':
-   downstream=[rows[i] for i in descendants(a['id']) if byid[i]['status']=='planned']
+   downstream=[rows[i] for i in descendants(a['id']) if byid[i]['status']=='planned' and rows[i]['evidence_class']!='defer_negative' and rows[i]['priority_proxy'] is not None and rows[i]['priority_proxy']>0]
    row['unlocks']=sorted(r['id'] for r in downstream)
    value=max([r['headroom_mrr'] for r in downstream] or [0])
    if row['cost_upper_hours'] is not None:row['priority_proxy']=max(row['priority_proxy'],max(0,value-penalty*row['cost_upper_hours'])/row['cost_upper_hours'])
